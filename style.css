@@ -44,7 +44,7 @@ nav ul#navbar li{
 
 .social-div{
 position: absolute;
-padding-left: 40%
+padding-left: 45%
 }
 
 #social2{
@@ -55,7 +55,7 @@ padding-left: 40%
 
 .social-call{
   position: absolute;
-padding-left: 25%
+padding-left: 30%
 }
 
 #call {
@@ -947,10 +947,18 @@ a:link {
   text-decoration: none;
 }
 
+.Stext-secondary{
+  font-size: 18px;
+}
 
+.codice{
+  font-size: 16px;
+}
+ .div_codice{
+  padding-left: 30%;
+ }
 
 /*  font-family: 'Source Sans Pro'  */
-
 
 
 

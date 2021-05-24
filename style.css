@@ -828,7 +828,7 @@ table.table_styling tr:nth-child(odd) {
 
 .mail {
   color: #B8860B !important;
-  font-size: 15px;
+  font-size: 18px;
 }
 .mail:hover {
   text-decoration-line: none;

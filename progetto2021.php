@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Progetto 2021 - YesWeCan</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+
+  <script src="bootstrap.min.js"></script>
+  <script src="docs/5.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<!-- partial:index.partial.html -->
+
+<body>
+
+
+
+  <!-- **********************
+      NAVIGATION BAR
+************************-->
+
+  <nav>
+
+    <ul id="navbar">
+      <!--<li><a class="menu" href="#">Contatti</a></li>-->
+      <!--  <li><a class="menu" href="#contact-section">Multimedia</a></li>
+    <li><a class="menu" href="#projects">Cosa Puoi Fare Tu</a></li> -->
+      <li><a class="menu" href="galeri.html">Galeri</a></li>
+      <li><a class="menu" href="cosa_facciamo.html">Cosa Facciamo</a></li>
+      <li><a class="menu" href="chi_siamo.html">Chi Siamo</a></li>
+      <li><a class="menu" href="index.html">Home</a></li>
+
+
+      <div class="social-div">
+        <li id="social"><a href="#"><i class="fa fa-youtube-play " style="" id="social2" aria-hidden="true"></i></a>
+        </li>
+        <li id="social"><a href="#"><i class="fa fa-instagram" id="social2" aria-hidden="true"></i></a></li>
+        <li id="social"><a href="#"><i class="fa fa-twitter" id="social2" aria-hidden="true"></i></a></li>
+        <li id="social"><a href="#"><i class="fa fa-facebook-square" id="social2" aria-hidden="true"></i></a></li>
+      </div>
+
+
+      <div class="social-call">
+        <li>
+          <p id="calltex">+39 327 465 8969 </p>
+        </li>
+        <li id="social"><i class="fa fa-phone" id="call" aria-hidden="true"></i></li>
+      </div>
+
+      <div class="social-addres">
+        <li>
+          <p id="calltex"> Via G. Antonio Cantore 35, 33100 Udine </p>
+        </li>
+        <li id="social"><i class="fa fa-map-marker" id="call" aria-hidden="true"></i></li>
+      </div>
+    </ul>
+  </nav>
+
+  <!-- End of Navigation -->
+
+
+  <!--*************************
+          HOME
+**************************-->
+
+  <section>
+    <div id="captioned-gallery">
+      <figure class="slider">
+
+        <figure>
+          <img src="sviluppo.jpg" alt>
+        </figure>
+
+        <figure>
+          <img src="salutewebp.jpg" alt>
+        </figure>
+
+        <figure>
+          <img src="water.jpg" alt>
+        </figure>
+
+        <figure>
+          <img src="salutewebp.jpg" alt>
+        </figure>
+
+        <figure>
+          <img src="sviluppo.jpg" alt>
+        </figure>
+
+      </figure>
+    </div>
+  </section>
+
+  <!-- End of Home -->
+
+  <!--*************************          
+           WELCOME
+**************************-->
+
+  <!--=======================  NOTE  ============================
+ /  I used the z-index property and CSS offsets (top, bottom,  /
+ /  left, right) in order to stack the welcome section above   /
+ /  the video.  I also had to use position:absolute as z-index /
+ /  only works on positioned elements (position:absolute,      /
+ /  position:relative, or position:fixed).                     /
+=============================================================-->
+
+  <section id="welcome-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center welcome">
+
+          <h1 class="lets_build text-uppercase text-center">Progetto 2021</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--End of Welcome Section-->
+  <!--=====================================
+            *** Statuto e bilancio sociale *** 
+        ======================================-->
+
+  <section id="skills_1" class="skills">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class=" col-12">
+            <h3 class="contact_heading text-uppercase text-center">Acqua per lo sviluppo del villaggio di Owoudjié</h3>
+            <hr class="heading_underline">
+            </div>
+
+            <div class="col-12 text-left">
+                <div class="col-12 text-left">
+                
+                    <h2 class="fa text-left text-danger ">Paese in cui è localizzato l’intervento:</h2> <p class="fa text-left">TOGO</p>     <br>
+                    <h5 class="fa text-left text-danger">Durata prevista del progetto:</h5> <p class="fa text-left"> 12 Mesi</p> <br>
+                    <h5 class="fa text-left text-danger">Costo totale del progetto:</h5> <p class="fa text-left"> € 50.000</p>    <br>
+                    <h5 class="fa text-left text-danger">Partner del Progetto: </h5> <p class="fa text-left">Regione Autonoma Friuli Venezia Giulia, Groupement Villageois de Owoudjié e Comune di Ogou1 </p>    <br>
+                    <h5 class="fa text-left text-danger"> Aree tematiche di intervento del progetto:</h5><p class="fa text-left">Persone (eliminare fame e povertà in tutte le forme e garantire
+                        dignità e uguaglianza) </p><br>
+                    <h5 class="fa text-left text-danger">Priorità:</h5> <p class="fa text-left">Crescita inclusiva e sostenibile per lo sviluppo umano </p> <br>
+                    
+                    <h5 class="fa text-left text-danger">Obiettivo del progetto:</h5>  <br>
+                        <p class="fa text-left">
+                            Il presente progetto vuole garantire in una primo punto l’accesso ad una fonte di acqua potabile (obiettivo 6 dei
+                            SDGs) <br> ed ai servizi igienici per tutta la popolazione del villaggio di Owoudjié ed in un secondo punto promuovere
+                            una crescita economica duratura, <br>inclusiva e sostenibile, la piena occupazione e il lavoro dignitoso (obiettivo 8 dei
+                            SDGs) attraverso una formazione in allevamento avicolo e la <br>creazione di un allevamento avicolo
+                            pilota di galline ovaiole per garantire un reddito alle giovani donne del villaggio. <br>
+                            <br>
+                        </p>  
+                    <br>
+
+                    <h5 class="fa text-left text-danger">Beneficiari</h5><br>
+                    
+                        <ol class="fa text-left">
+                            <li>l’intera popolazione del villaggio stimata in 3045 abitanti;</li>
+                            <li>100 giovani donne formate sull’allevamento avicolo di galline ovaiole;</li>
+                            <li>30 giovani donne tra quelle formate coinvolte nella creazione di un allevamento avicolo pilota di galline
+                            ovaiole edi polli da carne.</li>
+                            
+                        </ol>
+                    <br>
+                        
+                    <h5 class="fa text-left text-danger">Risultati attesi</h5> <br>
+                        <ol class="fa text-left">
+                            <li>Disponibilità di acqua potabile per tutta la popolazione di Owoudjié;</li>
+                            <li>Ridotta incidenza delle malattie legate all’acqua ad Owoudjié;</li>
+                            <li>Disponibilità di 3 servizi igieni nel villaggio;</li>
+                            <li>100 giovani donne disoccupati e senza formazione formate in allevamento avicolo; </li>
+                            <li>Creazione di un allevamento avicolo pilota di galline con 30 giovani donne formati;</li>
+                            <li>Incremento della manodopera femminile e riduzione della povertà ad Owoudjié;</li>
+                            <li>Sensibilizzazione della popolazione del FVG sulla gestione sostenibile dell’acqua</li>
+                        </ol>
+                    <br>
+
+                    <h5 class="fa text-left text-danger">Principali attività</h5> <br>
+                        <ol class="fa text-left">
+                            <li >Costruzione di una fonte di acqua potabile e di 3 servizi igienici nel villaggio di Owoudjié;</li>
+                            <li>Sensibilizzazione sull’uso corretto dell’acqua;</li>
+                            <li>Formazione di un Gruppo di Gestione dell’Acqua (GGA);</li>
+                            <li>Formazione di 100 giovani donne disoccupate in allevamento avicolo di galline ovaiole;</li>
+                            <li>Creazione di un fondo di solidarietà per la concessione di micro-prestiti alle giovani donne formate;</li>
+                            <li>Avvio di un allevamento avicolo pilota di galline con 30 giovani donne formate;</li>
+                            <li>Sensibilizzazione sui risultati del progetto in regione FVG;</li>
+                            <li>Monitoraggio e coordinamento del progetto;</li>
+
+                        </ol>
+                    <br>
+                </div>      
+            </div>
+        </div>
+    </div>
+
+  </section>
+
+  <!--*************************
+                FOOTER
+      **************************-->
+
+  <section id="contact-section" class="contact">
+    <div class="container-fluid">
+      <div class="row row-content">
+        <div class="col-12 col-md-6 social_buttons text-left">
+          <h2 class="contact_heading text-uppercase text-left">Contatti</h2>
+
+          <p class="contact_info text-left">YES WE CAN</p>
+          <hr>
+
+          <ul class="navbar-nav contact_email">
+            <li id="context1" class="nav-item">
+              <i id="fa-color" class="fa fa-phone fa-2x" aria-hidden="true"></i> Telefono: <span class="span-color">+39
+                327 465 8969 </span>
+            </li>
+
+            <li id="context1" class="nav-item">
+              <i id="fa-color" class="fa fa-envelope" aria-hidden="true"></i> Email:<a class="mail"
+                href="mailto:yeswecanodv@gmail.com" target="_blank"> yeswecanodv@gmail.com </a>
+            </li>
+            <li id="context1" class="nav-item">
+              <i id="fa-color" class="fa fa-envelope" aria-hidden="true"></i> PEC:<a class="mail"
+                href="mailto:yeswecanodv@pec.it" target="_blank"> yeswecanodv@pec.it </a>
+            </li>
+
+            <li id="context1" class="nav-item">
+              <i id="fa-color" class="fa fa-globe" aria-hidden="true"></i> Sito Web:<a class="web-site" href=""
+                target="_blank"> https://yeswecanodv.github.io/yeswecan/ </a>
+            </li>
+
+          </ul>
+          <hr>
+
+          <div class="contact_social">
+            <a href="" target="_blank" class="fa fa-facebook-square" aria-hidden="true"></a>
+            <a href="" target="_blank" class="fa fa-twitter" aria-hidden="true"></a>
+            <a href="" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
+            <a href="" target="_blank" class="fa fa-youtube-play" aria-hidden="true"></a>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-6">
+          <!--Adding a Basic Form-->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--*************************
+                FOOTER
+      **************************-->
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+
+
+        <div class="div_codice">
+          <p class="codice"> “YES WE CAN odv” - codice fiscale 94152190305 <br>
+            iscritta nel Registro generale del volontariato
+            organizzato di cui all’articolo 5 della legge regionale 23/2012 al numero 1372.</p>
+        </div>
+        <!--copyright info-->
+
+        <div class="col-4 text-center">
+          <p id="copyright"> 2021 &copy; Copyright | Yes We Can</p>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  </main>
+
+
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+
+  <!--Links to activate javascript and jQuery on github pages-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!--Link to activate bootstrap on github pages-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/tether/dist/js/tether.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+<!--**************-->
+<!-- partial -->
+<script src="./script.js"></script>
+
+</body>
+
+</html>

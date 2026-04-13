@@ -137,7 +137,7 @@ figure.slider img {
 
 figure.slider figure figcaption { 
   position: fixed; bottom: 0;
-  background: rgba(0,0,0,0.2);
+  background: rgba(0,0,0,0.9);
   color: #fff; width: 100%;
   font-size: 2rem; padding: .6rem; 
   margin-bottom: 89px;
@@ -159,7 +159,7 @@ figure.slider figure figcaption {
   padding-bottom:0;
   z-index: 1;
   /*height:659px;*/
-  height: 100vh;
+  height: 10vh;
   /*border-top-width: 15px; 
   border-top-color: rgba(254, 249, 231, 0.5);*/
 }
@@ -168,7 +168,7 @@ pass the given home height so i had to give it a fixed
 height whuch is the same height as home.*/
 
 #home .container-fluid .row {
- height: 100vh;
+ height: 10vh;
 }
 
 #home .col-12 {
@@ -186,20 +186,18 @@ height whuch is the same height as home.*/
 #welcome-section {
   z-index: 2;
   position: absolute;
-  background-color: rgba(0,0,0,0.3); 
  /* background: linear-gradient(45deg, rgba(9,167,161,0.3), rgba(0,0,0,0.7));*/ 
   top: 0px;
   left: 0px;
   right: 0px;
   bottom: 0px;
   /*height:659px;*/
-  height: 115.1vh;
   padding-top: 220px;
 }
 
  #welcome-section .welcome h1, #welcome-section .welcome p {
   font-family: 'Merriweather', serif;
-       font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;
   color:rgb(255,255,255);
   display: inline-block;
   /*using transform: scale to stretch the font; */
@@ -1912,4 +1910,10 @@ hr.heading_underline {
   position:relative;
   height:45em;
   display:block;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row; /* Elementi in riga su desktop */
+    }
 }
